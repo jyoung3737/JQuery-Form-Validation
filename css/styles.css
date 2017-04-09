@@ -2,12 +2,13 @@ body {
     font-family: sans-serif;
     color: #777;
     background-color: #f2f2f2;
+    font-size: 1rem;
 }
 h2 {
     margin: 0 0 20px;
     color: #000;
     border-bottom: 1px solid #CCC;
-    font-size: 34px;
+    font-size: 2rem;
 }
 div.main-container{
      width: 1000px;
