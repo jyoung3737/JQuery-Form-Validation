@@ -1,12 +1,47 @@
 body {
     font-family: sans-serif;
     color: #777;
+    background-color: #f2f2f2;
 }
 h2 {
     margin: 0 0 20px;
     color: #000;
     border-bottom: 1px solid #CCC;
     font-size: 34px;
+}
+div.main-container{
+     width: 1005px;
+     margin: 0 auto;
+     padding: 20px;
+     overflow: auto;
+     background-color: #fff;
+}
+div.editorial-container{
+     width:500px;
+     padding: 0;
+     display: block;
+     position: fixed;
+     padding: 20px;
+}
+div.form-container {
+    width: 400px;
+    padding: 20px;
+    background-color: #efefef;
+    border-right: 1px solid #CCC;
+    border-bottom: 1px solid #CCC;
+    border-radius: 5px;
+    display: block;
+    float: right;
+    position: relative;
+}
+div.btn-container{
+    display: inline-block; 
+    text-align: right; 
+    width: 100%
+}
+/*  FORM STYLES */
+label{
+    font-weight: bold;
 }
 input, textarea {
     padding: 8px;
@@ -17,23 +52,6 @@ input, textarea {
 }
 textarea {
     height: 100px;
-}
-div.form-container {
-    padding: 20px;
-    background-color: #EFEFEF;
-    width: 400px;
-    border-right: 1px solid #CCC;
-    border-bottom: 1px solid #CCC;
-    border-radius: 5px;
-    position: relative;
-}
-div.btn-container{
-    display: inline-block; 
-    text-align: right; 
-    width: 100%
-}
-label{
-    font-weight: bold;
 }
 input.btn-submit{
     width: 125px;
