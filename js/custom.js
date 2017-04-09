@@ -3,7 +3,8 @@ $(document).ready(function(){
     
     $(':input').on("input propertychange", function() {   
         if($(this).val() !== ''){
-            $(this).parent().parent().find('#val-icon').attr('src','css/images/ok.gif');
+            $(this).parent().find('#val-icon').attr('src','css/images/ok.gif');
+            $(this).addClass('TEST!');
             enableSubmit();
         } else {
              $(this).parent().parent().find('#val-icon').attr('src','css/images/nok.gif');
@@ -12,10 +13,10 @@ $(document).ready(function(){
     
     $('input[type=email]').on("input propertychange", function() {
         if(isEmail($(this).val())) {
-            $(this).parent().parent().find('#val-icon').attr('src','css/images/ok.gif');
+            $(this).parent().find('#val-icon').attr('src','css/images/ok.gif');
             enableSubmit();
         } else {
-             $(this).parent().parent().find('#val-icon').attr('src','css/images/nok.gif');
+             $(this).parent().find('#val-icon').attr('src','css/images/nok.gif');
         }
     });
     
