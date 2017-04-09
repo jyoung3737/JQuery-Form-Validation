@@ -4,7 +4,7 @@
     <title>Simple Html Form with Validation</title>
     
     <!-- CSS Styles -->
-    <link href="css/styles.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
     
     <!-- Include Javascript -->
     <script src="js/jquery-3.2.0.min.js" type="text/javascript"></script>
@@ -12,16 +12,18 @@
 </head>
 <body>
     <div class="main-container">
-        <div class="editorial-container">
-            <h2>Form Features</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-        </div>
-        <div class="form-container">
-            <h2>Contact Us</h2>
-            <form action="#" name="contact-form" method="post">
-                <div class="form-name-container">
-                    <div class="form-left-column">
+        <section class="editorial-container">
+            <div class="content-container">
+                <h2>Form Features</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+        </section>
+        <section class="form-container">
+            <div class="content-container">
+                <h2>Contact Us</h2>
+                <form action="#" name="contact-form" method="post">
+                    <div class="form-name-container">
                         <div>
                             <span class="val-image">
                                 <img src="css/images/nok.gif" id="val-icon" height="12px" />
@@ -29,8 +31,6 @@
                             <label for="firstName">First Name:</label></div>
                             <div><input name="firstName" type="text" placeholder="First Name">
                         </div>
-                    </div>
-                    <div class="form-right-column">
                         <div>
                             <span class="val-image">
                                 <img src="css/images/nok.gif" id="val-icon" height="12px" />
@@ -38,28 +38,28 @@
                             <label for="lastName">Last Name:</label></div>
                         <div><input name="lastName" type="text" placeholder="Last Name"></div>
                     </div>
-                </div>
-                <div>
                     <div>
-                        <span class="val-image">
-                            <img src="css/images/nok.gif" id="val-icon" height="12px" />
-                        </span>
-                        <label for="email">Email:</label></div>
-                    <div><input name="email" type="email" placeholder="Email"></div>
-                </div>
-                <div>
-                    <div>
-                        <span class="val-image">
+                        <div>
+                            <span class="val-image">
                                 <img src="css/images/nok.gif" id="val-icon" height="12px" />
                             </span>
-                        <label for="message">Message:</label></div>
-                    <div><textarea name="message" placeholder="Please enter your message"></textarea></div>
-                </div>
-                <div>
-                    <div class="btn-container"><input type="Submit" value="Submit" class="btn-submit" disabled="true"></div>
-                </div>
-            </form>
-        </div>
+                            <label for="email">Email:</label></div>
+                        <div><input name="email" type="email" placeholder="Email"></div>
+                    </div>
+                    <div>
+                        <div>
+                            <span class="val-image">
+                                    <img src="css/images/nok.gif" id="val-icon" height="12px" />
+                                </span>
+                            <label for="message">Message:</label></div>
+                        <div><textarea name="message" placeholder="Please enter your message"></textarea></div>
+                    </div>
+                    <div>
+                        <div class="btn-container"><input type="Submit" value="Submit" class="btn-submit" disabled="true"></div>
+                    </div>
+                </form>
+            </div>
+        </section>
     </div>
 </body>
 </html>

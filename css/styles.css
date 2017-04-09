@@ -1,3 +1,9 @@
+@media (max-width: 600px) {
+    h2 {
+        color:pink;
+    }
+}
+
 body {
     font-family: sans-serif;
     color: #777;
@@ -10,22 +16,19 @@ h2 {
     font-size: 34px;
 }
 div.main-container{
-     width: 1005px;
+     width: 1000px;
      margin: 0 auto;
-     padding: 20px;
      overflow: auto;
      background-color: #fff;
-}
-div.editorial-container{
-     width:500px;
-     padding: 0;
-     display: block;
-     position: fixed;
      padding: 20px;
 }
-div.form-container {
-    width: 400px;
-    padding: 20px;
+section.editorial-container{
+     width:500px;
+     display: block;
+     position: fixed;
+}
+section.form-container {
+    width: 500px;
     background-color: #efefef;
     border-right: 1px solid #CCC;
     border-bottom: 1px solid #CCC;
@@ -34,11 +37,15 @@ div.form-container {
     float: right;
     position: relative;
 }
+div.content-container{
+    padding: 20px;
+}
 div.btn-container{
     display: inline-block; 
     text-align: right; 
     width: 100%
 }
+
 /*  FORM STYLES */
 label{
     font-weight: bold;
