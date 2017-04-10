@@ -1,5 +1,6 @@
 div.main-container{
-     width: 100%;
+    width: 100%;
+    padding: 0;
 }
 section.form-container {
     width: 100%;
