@@ -1,9 +1,11 @@
+div.main-container{
+     width: 100%;
+}
 section.form-container {
     width: 100%;
     float: none;
 }
 section.editorial-container{
      width:100%;
-     display: inline;
      position:static;
 }
